@@ -1,6 +1,6 @@
 # CV BATMAN
 
-Proyecto de Frontend, maqueteado HTML y CSS.
+Proyecto de Frontend, maquetado HTML y CSS.
 
 ## GitHub Page
 
