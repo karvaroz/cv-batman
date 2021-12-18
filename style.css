@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Zen Antique Soft', serif;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+header img {
+  height: 146.37px;
+}
+.nav {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.nav button {
+  margin-top: 30px;
+  background-color: #005677;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-bloc;
+
+
+}
+
+a:link {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+.contenedor_titulo {
+  height: 60px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+}
+
+.titulo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 84.69%;
+  color: #005677;
+}
+
+.title__summary {
+  height: 133px;
+}
+
+.subtitulo {
+  height: 30px;
+  background-color: #c4c4c4;
+  display: flex;
+  align-items: center;
+  padding-left: 12.45px;
+}
+
+.estilo_subtitulo {
+  font-size: 20px;
+  color: #005677;
+  letter-spacing: 5px;
+}
+
+.datos_personales {
+  margin-top: 85px;
+}
+
+div ul {
+  margin: 20px 0 30px 24px;
+}
+
+div ul .datos_negrilla {
+  font-weight: bold;
+  font-style: italic;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.contenedor_exp {
+  margin-top: 30px;
+  height: 284px;
+}
+
+.trabajo {
+  padding-top: 9px;
+}
+
+.contenedor {
+  margin-left: 19px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.letra_bold {
+  font-weight: bold;
+}
+
+.letra_alineada {
+  padding-left: 10px;
+}
+
+footer {
+  background-color: #005677;
+  min-height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.texto_footer {
+  color: #ffff;
+  font-size: 20px;
+}
+
+.fab {
+  width: 20px;
+  height: auto;
+  margin-left: 20px;
+  color: #ffff;
+}
+
+.saludo {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #005677;
+  padding: 10px;
+}
